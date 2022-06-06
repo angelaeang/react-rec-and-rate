@@ -5,10 +5,10 @@ Users can add their recommendations, then vote on them.
 This app will automatically reorder and organize these recommendations!
 
 
-### Directions
+### `Directions`
 To run it, make sure to "npm run server" first, then to "npm server"
 
-### Thanks
+### `Thanks`
 I would like to thank the following tutorial for helping me get started and learn more about react!
 
 https://www.youtube.com/watch?v=w7ejDZ8SWv8&list=PLAFNmTazpHknOs_gx6gqxDkCo32XGcspb&index=1&t=4911s
