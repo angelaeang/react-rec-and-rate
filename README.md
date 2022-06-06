@@ -1,3 +1,16 @@
+This react app shares recommendations for different types of media!
+
+TBC...
+
+To run it, make sure to "npm run server" first, then to "npm server"
+
+--------------------------------------------------------------------------------------------------
+
+I would like to thank the following tutorial for helping me get started and learn more about react!
+
+https://www.youtube.com/watch?v=w7ejDZ8SWv8&list=PLAFNmTazpHknOs_gx6gqxDkCo32XGcspb&index=1&t=4911s
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
