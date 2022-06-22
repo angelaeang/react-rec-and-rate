@@ -1,13 +1,17 @@
+# Recommend and Rate
 This react app shares recommendations for different types of media!
+Each list is a different category. Users can go on this website
+to add their own recommendations and rate all of these recommendations!
 
-TBC...
+## Features:
+- Add a recommendation (add title, description, name or be anonymous)
+- Rate other recommendations (which live reloads the ranking order)
+- Expand a specific list to see more than 5 entries and their full descriptions!
 
+## To run the app:
 To run it, make sure to "npm run server" first, then to "npm server"
 
---------------------------------------------------------------------------------------------------
-
-I would like to thank the following tutorial for helping me get started and learn more about react!
-
+### Thanks
 https://www.youtube.com/watch?v=w7ejDZ8SWv8&list=PLAFNmTazpHknOs_gx6gqxDkCo32XGcspb&index=1&t=4911s
 
 

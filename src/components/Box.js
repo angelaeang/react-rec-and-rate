@@ -19,14 +19,11 @@ const Box = ( {list, redirect} ) => {
 
   //get initial state from database
   useEffect(() => {
-    console.log("NUM1")
     //Fetch items
     const fetchitems = async () => {
       const res = await fetch(`http://localhost:5000/${list.type}`) //use to have be "http://localhost:5000/items/"
       const data = await res.json()
 
-      //console.log(data)
-      console.log("hi1")
       return data
       //returns a promise on async
     }

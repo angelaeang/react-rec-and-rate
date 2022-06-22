@@ -31,12 +31,12 @@ const Item = ( { item, index, anon, onUp, onDown}) => {
             </div>
             <div className='ratings'>
                 <div className='up'>
-                    <BsFillHandThumbsUpFill style={{color: 'green', cursor: 'pointer', alignSelf: "center"}}
+                    <BsFillHandThumbsUpFill style={{color: '#E7B2D7', cursor: 'pointer', alignSelf: "center"}}
                                         onClick = {onUp}/>
                     <p>{item.up}</p>
                 </div>
                 <div className='down'>
-                    <BsFillHandThumbsDownFill style={{color: 'red', cursor: 'pointer', alignSelf: "center"}}
+                    <BsFillHandThumbsDownFill style={{color: '#F02D3A', cursor: 'pointer', alignSelf: "center"}}
                                         onClick = {onDown} />
                     <p>{item.down}</p>
                 </div>

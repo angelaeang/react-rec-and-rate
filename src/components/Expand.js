@@ -6,7 +6,7 @@ const Expand = ( {redirect} ) => {
   return (
     <div className='expand'>
         < Link to={redirect}>
-            <BsArrowsAngleExpand />
+            <BsArrowsAngleExpand color= "#DFF3E4" />
         </Link>
     </div>
   )

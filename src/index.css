@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,600&display=swap');
+/*
+COLORS:
+PINK: #E7B2D7
+HONEYDEW: #DFF3E4
+SPACE CADET BLUE: #171738
+DARK SKY BLUE: #86BBD8
+IMPERIAL RED: #F02D3A
+*/
 
 * {
   box-sizing: border-box;
@@ -9,27 +17,54 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
+  background-color: #DFF3E4;
+  color: #DFF3E4;
+}
+
+#title {
+  margin-top: 40px;
+  color: #171738;
 }
 
 h1 {
   text-align: center;
   margin: 20px;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: #171738;
+  background-color: #E7B2D7;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .mainContainer {
-  background-color: aliceblue;
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
 .container {
-  max-width: 500px;
+  background-color: #171738;
+  max-width: 800px;
   min-width: 300px;
-  margin: 30px auto;
+  margin: 30px;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid rgb(74, 62, 178);
+  border: 1px solid #171738;
   border-radius: 10px;
   padding: 30px;
 }
@@ -40,12 +75,10 @@ h1 {
 }
 
 .expand {
+  color:#171738;
   display: inline-block;
   margin-left: 100%;
-  margin-bottom: 10px;
-  /*
-  background-color: royalblue;
-  */
+  margin-bottom: 5px;
 }
 
 .header {
@@ -56,9 +89,9 @@ h1 {
 }
 
 .btn {
+  background-color: #E7B2D7;
   display: inline-block;
-  background: #000;
-  color: #fff;
+  color: #171738;
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -82,7 +115,7 @@ h1 {
 }
 
 .item {
-  background: #ffffff;
+  border: 1px solid #DFF3E4;
   margin: 5px;
   margin-top: 10px;
   padding: 15px;
@@ -93,10 +126,7 @@ h1 {
 
 .item h2 {
   margin-right: 15px;
-  color: white;
-  background-color: rgb(62, 140, 208);
   padding: 4px;
-  border-radius: 10px;
 }
 
 /*
@@ -122,7 +152,6 @@ h1 {
 
 .item p {
   margin-top: 5px;
-  color: rgb(62, 140, 208);
 }
 
 #author {
@@ -144,13 +173,17 @@ h1 {
 }
 
 .up p{
-  color: green;
+  color: #E7B2D7;
   align-self: center;
 }
 
 .down p{
-  color: red;
+  color: #F02D3A;
   align-self: center;
+}
+
+label input {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .add-form {

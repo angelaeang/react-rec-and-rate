@@ -1,8 +1,7 @@
 import React from 'react'
 import {BrowserRouter as Router} from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import {Route, Routes} from 'react-router-dom'
-import Box from './components/Box'
+import MainBody from './components/MainBody'
 //import Music from './components/Music'
 
 
@@ -33,26 +32,10 @@ function App() {
 
   return ( //this is jsx , javascript syntax extension. 
     <Router>
-      <h1>Recommend and Rate</h1>
+      <h1 id='title'>Recommend &amp; Rate</h1>
       <div className='mainContainer'>
 
-        <Routes>
-
-          <Route path='*' element={<>
-            { lists.map( (list) => (
-                  <Box key={list.id} list={list} redirect={`/${list.type}`}/> 
-              ) ) }
-          </>} />
-
-          <Route path='/music/*' element={<>
-            <Box key={0} list={ {"id": 0, "type": "music"}} redirect={"/"}/>
-          </>} />
-
-          <Route path='/shows/*' element={<>
-            <Box key={1} list={ {"id": 1, "type": "shows"}} redirect={"/"}/>
-          </>} />
-
-        </Routes>
+        <MainBody lists={lists}/>
 
       </div>
 
@@ -65,13 +48,6 @@ function App() {
 
 
 /*********************************************************** */
-/*
-previously had:
-    <Box key={0} id="music"/>
-    <Box key={1} id="shows"/>
-*/
-
-
 //syntax to use classes instead of functions
 /*
 class App extends React.Component {

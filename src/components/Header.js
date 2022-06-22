@@ -12,7 +12,7 @@ const Header = ( { title, toggleAdd, showAdd }) => {
     return (
         <header className='header'>
             <h1> {title}</h1>
-            <Button color={showAdd ?'red':'green'} text={showAdd ?'close':'add'} onClick={toggleAdd}/>
+            <Button color={showAdd ?'#F02D3A':'#E7B2D7'} text={showAdd ?'close':'add'} onClick={toggleAdd}/>
             
         </header>
     )
