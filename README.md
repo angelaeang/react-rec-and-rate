@@ -14,6 +14,8 @@ To run it, make sure to "npm run server" first, then to "npm server"
 ### Thanks
 https://www.youtube.com/watch?v=w7ejDZ8SWv8&list=PLAFNmTazpHknOs_gx6gqxDkCo32XGcspb&index=1&t=4911s
 
+--------------------------------------------------------------------------------------------------
+
 
 # Getting Started with Create React App
 
@@ -22,6 +24,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run server`
+Runs the json.db so we can access it in our app
 
 ### `npm start`
 
