@@ -9,7 +9,7 @@ to add their own recommendations and rate all of these recommendations!
 - Expand a specific list to see more than 5 entries and their full descriptions!
 
 ## To run the app:
-To run it, make sure to "npm run server" first, then to "npm server"
+To run it, make sure to "npm run server" first, then to "npm start"
 
 ### Thanks
 https://www.youtube.com/watch?v=w7ejDZ8SWv8&list=PLAFNmTazpHknOs_gx6gqxDkCo32XGcspb&index=1&t=4911s
