@@ -12,6 +12,10 @@ to add their own recommendations and rate all of these recommendations!
 ## To run the app:
 To run it, make sure to "npm run server" first, then to "npm start"
 
+## Demo Pictures:
+<img width="1340" alt="Screen Shot 2022-08-15 at 6 41 52 PM" src="https://user-images.githubusercontent.com/67710978/184733364-5eeb8bd0-5645-4807-976f-c33ecc37232d.png">
+
+
 ### Thanks for the tips and lessons [Traversy Media](https://www.youtube.com/watch?v=w7ejDZ8SWv8&list=PLAFNmTazpHknOs_gx6gqxDkCo32XGcspb&index=1&t=4911s)!
 
 --------------------------------------------------------------------------------------------------
